@@ -1,0 +1,14 @@
+--https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/troubleshoot-always-on-availability-groups-configuration-sql-server?view=sql-server-ver15
+--https://www.dbrnd.com/2019/06/sql-server-script-to-check-network-or-connect-permission-of-user/
+
+SELECT 'Metadata Check';  
+SELECT EP.name, SP.STATE,   
+   CONVERT(nvarchar(38), suser_name(SP.grantor_principal_id))   
+      AS GRANTOR,   
+   SP.TYPE AS PERMISSION,  
+   CONVERT(nvarchar(46),suser_name(SP.grantee_principal_id))   
+      AS GRANTEE   
+   FROM sys.server_permissions SP , sys.endpoints EP  
+   WHERE SP.major_id = EP.endpoint_id  
+   ORDER BY Permission,grantor, grantee;   
+GO  
