@@ -1,5 +1,5 @@
 -- https://blog.sqlauthority.com/2011/01/04/sql-server-2008-unused-index-script-download/
-
+-- https://www.mssqltips.com/sqlservertutorial/256/discovering-unused-indexes/
 -- SQL SERVER Script: Find Unused Index
 SELECT  
 o.name AS ObjectName
