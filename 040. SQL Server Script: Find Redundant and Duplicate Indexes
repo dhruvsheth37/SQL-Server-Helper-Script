@@ -1,5 +1,6 @@
 --SQL Server Script: Find Redundant and Duplicate Indexes
 --https://www.dbrnd.com/2016/11/sql-server-script-to-find-redundant-and-duplicate-indexes/
+--https://www.technothirsty.com/find-redundant-indexes-sql-server/
 SELECT
 	s.Name + '.' + t.Name AS TableName	
 	,i.name AS IndexName1	
