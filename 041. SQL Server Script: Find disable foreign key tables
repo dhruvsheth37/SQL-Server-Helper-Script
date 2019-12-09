@@ -1,0 +1,13 @@
+--SQL Server Script: Find disable foreign key tables
+--https://www.dbrnd.com/2016/11/sql-server-script-to-find-disable-constraint-foreign-key-tables/
+SELECT 
+	[s].[name] + '.' + [t].[name] AS TableName
+FROM [sys].[tables] AS t
+INNER JOIN [sys].[schemas] AS s
+	ON [t].[schema_id] = [s].[schema_id]
+WHERE EXISTS
+(
+	SELECT 1 FROM [sys].[foreign_keys] AS fk
+	WHERE [fk].[parent_object_id] = [t].[object_id]
+		AND [fk].[is_disabled] = 1
+);
