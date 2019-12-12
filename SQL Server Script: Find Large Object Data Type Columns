@@ -1,0 +1,19 @@
+--SQL Server Script: Find Large Object Data Type Columns
+--https://www.dbrnd.com/2016/10/sql-server-script-to-find-large-object-data-type-columns-row-overflow-varchar-max-lob-columns/
+SELECT 
+	[s].[name] + '.' + [t].[name] AS TableName
+FROM [sys].[tables] AS t
+INNER JOIN [sys].[schemas] AS s
+	ON [t].[schema_id] = [s].[schema_id]
+WHERE EXISTS
+(
+	SELECT 1 FROM [sys].[columns] AS c
+	WHERE [c].[object_id] = [t].[object_id]
+	AND [c].[max_length] = -1
+	AND [c].[system_type_id] IN 
+	(
+		165, -- VARBINARY
+		167, -- VARCHAR
+		231  -- NVARCHAR		
+	)
+);
