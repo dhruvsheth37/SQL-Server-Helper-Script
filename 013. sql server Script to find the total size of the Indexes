@@ -12,8 +12,11 @@ JOIN sys.partitions AS p
 		AND p.index_id = i.index_id
 JOIN sys.allocation_units AS au 
 	ON au.container_id = p.partition_id
+WHERE i.index_id>0
 GROUP BY 
 	i.OBJECT_ID
 	,i.index_id
 	,i.name
 ORDER BY IndexSizeInMB DESC
+
+
