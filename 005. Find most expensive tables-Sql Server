@@ -1,5 +1,5 @@
 
------ ************ Find most expensive tables  Starts ****** --------------
+----- ************ Find most expensive tables Starts Query-1 ****** --------------
 Select Object_Name(ix.[object_id]) as objectName 
         , Sum(ddius.user_seeks) As 'table_seeks' 
         , Sum(ddius.user_scans) As 'table_scans' 
@@ -14,4 +14,22 @@ Where ddius.database_id = DB_ID()
 Group By Object_Name(ix.[object_id]) 
 Order By query_activity Desc;
 
------ ************ Find most expensive tables  Ends ****** --------------
+----- ************ Find most expensive tables  Ends Query-1 ****** --------------
+
+----- ************ Find most expensive tables Starts Query-2 ****** --------------
+CREATE TABLE #tmpTableSizes
+(
+    tableName varchar(100),
+    numberofRows varchar(100),
+    reservedSize varchar(50),
+    dataSize varchar(50),
+    indexSize varchar(50),
+    unusedSize varchar(50)
+)
+insert #tmpTableSizes
+EXEC sp_MSforeachtable @command1="EXEC sp_spaceused '?'"
+
+
+select  * from #tmpTableSizes
+order by cast(LEFT(reservedSize, LEN(reservedSize) - 4) as int)  desc
+----- ************ Find most expensive tables  Ends Query-2 ****** --------------
