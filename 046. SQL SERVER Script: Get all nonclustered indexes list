@@ -1,4 +1,4 @@
- SELECT schema_name(t.schema_id), t.name,  i.name 
+ SELECT QUOTENAME(schema_name(t.schema_id))+ '.[' +t.name+']',  i.name 
 	 FROM sys.indexes i
 	 INNER JOIN sys.tables t 
 	 ON t.object_id= i.object_id
