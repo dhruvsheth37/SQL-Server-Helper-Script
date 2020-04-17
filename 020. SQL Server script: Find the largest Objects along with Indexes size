@@ -1,4 +1,4 @@
---SQL Server script: Find the largest object 
+--SQL Server script: Find the largest Objects along with Indexes size
 SELECT 
     t.NAME AS TableName
     ,i.name as indexName
