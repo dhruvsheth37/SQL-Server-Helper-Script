@@ -1,0 +1,20 @@
+-- Get the definition of Trace Script - SQL Server
+
+-- Step-1
+-- Get the default trace_id of instance:
+SELECT distinct traceid 
+FROM ::fn_trace_getinfo(default)
+GO
+
+-- Step-2
+-- Pass trace_id in fn_trace_geteventinfo() and get the definition of Trace:
+select
+	tg.eventid as EventID
+	,te.Name as EventName 
+	,tg.columnid as ColumnID
+	,cols. name as ColumnName
+from :: fn_trace_geteventinfo (OUTPUT_NO) as tg 
+INNER JOIN sys.trace_events as te 
+	ON tg.eventid = te.trace_event_id
+INNER JOIN sys.trace_columns cols 
+	ON tg.columnid = cols.trace_column_id
