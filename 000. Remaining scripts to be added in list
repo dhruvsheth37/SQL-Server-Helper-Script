@@ -1,13 +1,4 @@
-SQL Server: Script to check Newly Allocated Pages to the Table
-SQL Server: Script to Drop a Table from all Databases
-SQL Server: Script to rename all Tables of a Database
- 
-SQL Server: Check the status of running Database Backup
-SQL Server: Find total number of Sessions of a Database
-SQL Server: Script to get the definition of Trace
-SQL Server: Script to check If Mirroring enable for Database
 
-SQL Server 2016: sys.dm_db_column_store_row_group_physical_stats to find fragmentation of Columnstore Indexes
 SQL Server 2016: sys.dm_column_store_object_pool to find memory pool usage by Columnstore Indexes
 SQL Server 2014: sys.column_store_row_groups to find information on Columnstore row groups
 SQL Server 2016: Script to get information of Cached Functions (Total Execution Time)
