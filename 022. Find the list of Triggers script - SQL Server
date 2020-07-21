@@ -1,4 +1,4 @@
---SQL Server Script: Find the list of Triggers
+-- 022. Find the list of Triggers script - SQL Server
 SELECT 
 	sysobjects.name AS TriggerName 
 	,USER_NAME(sysobjects.uid) AS TriggerOwner 
