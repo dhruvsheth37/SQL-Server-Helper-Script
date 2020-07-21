@@ -1,4 +1,4 @@
--- Find total number of Sessions Script - Sql Server 
+-- Find total number of Sessions - SQL Server Script
 
 select
        db_name (resource_database_id) as DatabaseName
