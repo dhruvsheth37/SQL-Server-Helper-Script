@@ -1,5 +1,4 @@
--- SQL Server Script: find top 10 most CPU utilizing Queries
---https://www.dbrnd.com/2016/11/sql-server-script-to-find-top-20-most-used-or-executed-sql-queries-dm_exec_query_stats/
+-- 033. Find top 10 most CPU utilizing Queries - SQL Server Script
 
 --Query 1 
 SELECT TOP 10
