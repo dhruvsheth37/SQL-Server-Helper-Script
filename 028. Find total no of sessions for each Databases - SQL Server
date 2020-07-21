@@ -1,4 +1,4 @@
---SQL Server script: Find total no of sessions for each Databases
+-- 028. Find total no of sessions for each Databases - SQL Server 
 select
        db_name (resource_database_id) as DatabaseName
        ,count (*) as TotalSessions
