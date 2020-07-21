@@ -1,4 +1,5 @@
--- SQL SERVER Script: Get all Clustered Indexes generated with primary keys only from Database
+-- 047. Get all Clustered Indexes generated with primary keys only from Database - SQL Server Script
+
  SELECT QUOTENAME(schema_name(t.schema_id))+ '.[' +t.name+']',
 	  i.name,i.* 
 	 FROM sys.indexes i
