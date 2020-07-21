@@ -1,4 +1,4 @@
---https://www.dbrnd.com/2019/05/sql-server-how-to-find-a-time-when-was-sql-server-restarted-dm_exec_sessions-dm_os_sys_info-traces/ 
+-- 015. Find last restarted time of SQL Server
 
 --Using sys.dm_exec_sessions: 
 SELECT login_time FROM sys.dm_exec_sessions WHERE session_id = 1
