@@ -1,4 +1,5 @@
---SQL Server Script: Find Database USER LOGIN Information
+-- 027. Find Database USER LOGIN Information Script - SQL Server 
+
 SELECT 
 	SL.name AS LoginName 
 	,LOGINPROPERTY (SL.name, 'PasswordLastSetTime') AS PasswordLastSetTime 
