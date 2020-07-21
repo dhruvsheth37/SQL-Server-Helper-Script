@@ -1,5 +1,7 @@
+-- 034. Most expensive queries - SQL Server Script
+
 ---------********* Most expensive queries starts****** ------------
---https://www.dbrnd.com/2016/11/sql-server-script-to-find-top-20-most-used-or-executed-sql-queries-dm_exec_query_stats/
+
 SELECT TOP 20 SUBSTRING(qt.TEXT, (qs.statement_start_offset/2)+1,
 ((CASE qs.statement_end_offset
 WHEN -1 THEN DATALENGTH(qt.TEXT)
