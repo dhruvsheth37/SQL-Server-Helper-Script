@@ -1,3 +1,4 @@
+-- Get all available Databases in SQL Server Instance
 
 select [name] as database_nane, 
     database_id, 
