@@ -1,5 +1,5 @@
---SQL Server Script: Find Large Object Data Type Columns
---https://www.dbrnd.com/2016/10/sql-server-script-to-find-large-object-data-type-columns-row-overflow-varchar-max-lob-columns/
+-- 042. Find Large Object Data Type Columns - SQL Server Script
+
 SELECT 
 	[s].[name] + '.' + [t].[name] AS TableName
 FROM [sys].[tables] AS t
