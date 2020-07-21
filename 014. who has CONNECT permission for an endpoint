@@ -1,7 +1,5 @@
---https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/troubleshoot-always-on-availability-groups-configuration-sql-server?view=sql-server-ver15
---https://www.dbrnd.com/2019/06/sql-server-script-to-check-network-or-connect-permission-of-user/
-
-SELECT 'Metadata Check';  
+When we install SQL Server, SQL Server requires some of permissions like TSQL Local Machine, TSQL Named Pipes, TSQL Default TCP and TSQL Default VIA, by which other clients could also access SQL Server.
+ 
 SELECT EP.name, SP.STATE,   
    CONVERT(nvarchar(38), suser_name(SP.grantor_principal_id))   
       AS GRANTOR,   
