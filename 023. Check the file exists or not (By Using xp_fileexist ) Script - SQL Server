@@ -1,4 +1,4 @@
---SQL Server Script: Check the file exists or not (By Using xp_fileexist )
+-- 023. Check the file exists or not (By Using xp_fileexist ) Script - SQL Server
  
 DECLARE @IsFileExists INT
 EXEC Master.dbo.xp_fileexist 'D:\TechnoThirsty.txt', @IsFileExists OUT 
