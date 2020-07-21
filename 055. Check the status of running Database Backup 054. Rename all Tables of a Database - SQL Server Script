@@ -1,4 +1,4 @@
--- Check the status of running Database Backup
+-- 055. Check the status of running Database Backup 054. Rename all Tables of a Database - SQL Server Script
 
 SELECT 
 	A.NAME AS DatabaseName
