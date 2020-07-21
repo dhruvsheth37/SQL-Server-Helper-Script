@@ -1,4 +1,5 @@
- --SQL Server Script: Get list of CHECK Constraints of Database
+ -- 025. Get list of CHECK Constraints of Database Script - SQL Server
+ 
 SELECT 
 	S.name + '.' + CC.name AS CheckContraintName 
 	,O.name AS ParentObject 
