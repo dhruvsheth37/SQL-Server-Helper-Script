@@ -1,6 +1,5 @@
 Please Note: Folks, I request you to test shared scripts in your development or QA environment before executing on live instance.
 
-
 SQL Server 2016: sys.dm_column_store_object_pool to find memory pool usage by Columnstore Indexes
 SQL Server 2014: sys.column_store_row_groups to find information on Columnstore row groups
 SQL Server 2016: Script to get information of Cached Functions (Total Execution Time)
@@ -32,24 +31,17 @@ SQL Server: sp_updatestats to update the Database Statistics
 SQL Server: Find Statisitcs Information of the Database Objects
 SQL Server: Enable Auto Create and Auto Update Statistics
 
-
-
 SQL Server: T-SQL Script to change Schema of all the Tables
 SQL Server: Who dropped a Table and Which Table has been dropped
 SQL Server: Script to find waiting Queries which are block by other running Queries
-SQL Server: Script to find TOP 20 most used or executed SQL Queries
+
 SQL Server: Script to find top 20 Stored Procedure, which are utilizing more CPU
 SQL Server: Script to grant EXECUTE stored procedure permission to a Database USER
 SQL Server: Script to find Memory Utilization for each database
-SQL Server: Script to find the CPU Information from Registry
-SQL Server: Script to find top 20 running query, which are utilizing more CPU
+SQL Server: Script to find the CPU Information from Registry 
 SQL Server: Script to rename Database Name, Table Name, Column Name
-SQL Server: Generate Shrink Script for each Database File
-SQL Server: Script to find Memory usage and allocation
-SQL Server: Script to find disable foreign key tables
-SQL Server: Script to find Large Object Data Type Columns
-SQL Server: Script to find a Table which has more than 25 columns
-SQL Server: Script to find a Table which has more than 10 Indexes
+ 
+ 
 SQL Server: T-SQL Script to Rebuild all Indexes of a Database
 SQL Server: Script to find SQL Agent JOB and JOB Schedule Information
 SQL Server: Script to find all Running SQL Server Agent JOB
@@ -90,23 +82,6 @@ SQL Server: Script to find CPU Pressure using Signal Wait Time
 SQL Server: Script to find total Row Count of All Tables in a Database
 SQL Server: Script to find Missing Indexes
 SQL Server: A Different command to check Basic Security Audit
-SQL Server: Script to find the Location of Database Backup Files
-SQL Server: Script to find all Columns information of a Database
-SQL Server: Script to find all Default values with Columns
-SQL Server: Script to find Last Backup Time for All Databases
-SQL Server: Script to find a different Server Property (Host, Instance, Edition, Version)
-SQL Server: Script to find usage of Database Indexes
-SQL Server: Script to find Index Operational Stats
-Find Free and Occupied space by SQL Server Database
-Open transactions in SQL Server
-Script to find last DDL changes in SQL Server
-Script to find Running Process and Session in SQL Server
-How to Find Foreign key References in SQL Server
-Find out most recently modified Stored Procedure and Table in SQL Server
-SQL Server CPU usage per Different Objects
-Script to Find Slowest Running Query in SQL Server
-SQL Script to find Cross Database Object Dependency in SQL Server
-SQL Script to find Object Dependency in SQL Server
+   
 How to find any Text, Column, Comment, Object Name in SQL Server Objects
 Query to Find Missing Number and ID in SQL Server
-Insert script for all Countries
