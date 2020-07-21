@@ -1,4 +1,5 @@
---SQL Server Script: Generate Shrink Script for each Database File
+--038. Generate Shrink Script for each Database File - SQL Server Script
+
 SELECT 
 	'USE ' + db_name(dbid) + char(13) + 'DBCC SHRINKFILE (N' + quotename(sf.name,'''') + ' ,truncateonly)' 
 FROM sys.sysaltfiles AS sf
