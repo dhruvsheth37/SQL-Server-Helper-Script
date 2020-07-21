@@ -1,3 +1,5 @@
+-- 054. Rename all Tables of a Database - SQL Server Script
+
 -- https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-rename-transact-sql?view=sql-server-ver15
 
 DECLARE @SQL NVARCHAR(max)=''
