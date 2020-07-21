@@ -1,4 +1,4 @@
---SQL Server: Script to find waiting Queries which are block by other running Queries
+--031. Find waiting Queries which are block by other running Queries Script - SQL Server
 SELECT
 	 dowt.session_id
 	,dowt.wait_duration_ms
