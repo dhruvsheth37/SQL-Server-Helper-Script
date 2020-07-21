@@ -3,5 +3,6 @@ This repository contains all helping SQL Server Script which will use in day to 
 
 
 
-Please Note: Folks, I request you to test shared scripts in your development or QA environment before executing on live instance.
+Please Note: 
+Folks, I request you to test shared scripts in your development or QA environment before executing on live instance.
 
