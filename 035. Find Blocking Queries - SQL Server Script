@@ -1,4 +1,4 @@
---SQL SERVER Script – Find Blocking Queries
+-- 035. Find Blocking Queries - SQL Server Script
 
 SELECT
 db.name DBName,
