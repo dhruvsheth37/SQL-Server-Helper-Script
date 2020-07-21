@@ -1,4 +1,4 @@
--- 052. Check Newly Allocated Pages to the Table - 053. Drop a Table from all Databases - SQL Server Script
+-- 052. Check Newly Allocated Pages to the Table - SQL Server Script
 
 SELECT 
 	OBJECT_NAME(p.object_id) AS object_name
