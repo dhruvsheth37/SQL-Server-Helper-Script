@@ -1,3 +1,4 @@
+-- Find Most Expensive Stored Procedure script - Sql Server
 
 SELECT DB_NAME(SQTX.DBID) AS [DBNAME]
 	,OBJECT_SCHEMA_NAME(SQTX.OBJECTID, DBID) AS [SCHEMA]
