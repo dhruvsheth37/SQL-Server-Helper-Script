@@ -1,4 +1,5 @@
---SQL Server script: Find total number of Sessions of a Database
+-- 029. Find total number of Sessions of a Database - SQL Server
+
 select
        db_name (resource_database_id) as DatabaseName
        ,count (*) as TotalSessions
