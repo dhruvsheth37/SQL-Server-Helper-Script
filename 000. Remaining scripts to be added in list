@@ -1,3 +1,5 @@
+Please Note: Folks, I request you to test shared scripts in your development or QA environment before executing on live instance.
+
 
 SQL Server 2016: sys.dm_column_store_object_pool to find memory pool usage by Columnstore Indexes
 SQL Server 2014: sys.column_store_row_groups to find information on Columnstore row groups
