@@ -1,5 +1,7 @@
+-- 040. Drop all nonclustered Indexes - SQL Server Script
+
 ----------***************************-------------
---               Please note								--
+--               Please note	     			        --
 -- This script will not delete unique and clustered indexes	--
 ---------***************************-------------
 
