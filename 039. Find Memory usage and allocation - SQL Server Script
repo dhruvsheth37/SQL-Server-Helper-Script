@@ -1,8 +1,10 @@
---SQL Server Script: Find Memory usage and allocation
+-- 039. Find Memory usage and allocation - SQL Server Script
+
 -- Query-1 
 DBCC MEMORYSTATUS 
 GO 
--- Query21 
+
+-- Query-2 
 SELECT
 	(physical_memory_in_use_kb/1024) AS Memory_usedby_SQLServer_in_MB
 	,(locked_page_allocations_kb/1024) AS Locked_pages_in_MB
