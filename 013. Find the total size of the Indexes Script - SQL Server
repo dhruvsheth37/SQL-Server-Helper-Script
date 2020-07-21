@@ -1,5 +1,5 @@
 
---https://www.dbrnd.com/2019/05/sql-server-script-to-find-the-total-size-of-the-indexes/
+-- 013. Find the total size of the Indexes Script - SQL Server 
  
 SELECT
 	OBJECT_SCHEMA_NAME(i.OBJECT_ID) AS SchemaName
