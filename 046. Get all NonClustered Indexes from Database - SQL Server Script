@@ -1,3 +1,5 @@
+-- 046. Get all NonClustered Indexes from Database - SQL Server Script
+
  SELECT QUOTENAME(schema_name(t.schema_id))+ '.[' +t.name+']',  i.name 
 	 FROM sys.indexes i
 	 INNER JOIN sys.tables t 
