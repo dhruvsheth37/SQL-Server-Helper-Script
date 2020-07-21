@@ -1,8 +1,8 @@
---SQL Server Script: Find a Table which has more than 30 columns
+--SQL Server Script: Find a Table which has more than N columns
 	
  
 DECLARE @threshold INT;
-SET @threshold = 30;
+SET @threshold = 25;
  
 ;WITH cte([object_id], [column count]) AS
 (
