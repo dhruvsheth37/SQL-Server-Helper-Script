@@ -85,7 +85,7 @@ ORDER BY C1.TableName, C1.ConcIndexColumnNrs
 ------------****** Script to find redundant indexes Query-1 ends*********-------
 
 GO
-------------****** Script to find redundant indexes Query-1 Starts*********-------
+------------****** Script to find redundant indexes Query-2 Starts*********-------
 ;WITH MyDuplicate AS (SELECT
 Sch.[name] AS SchemaName,
 Obj.[name] AS TableName,
