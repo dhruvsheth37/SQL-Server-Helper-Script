@@ -1,7 +1,5 @@
 Please Note: Folks, I request you to test shared scripts in your development or QA environment before executing on live instance.
-
-SQL Server 2016: sys.dm_column_store_object_pool to find memory pool usage by Columnstore Indexes
-SQL Server 2014: sys.column_store_row_groups to find information on Columnstore row groups
+ 
 SQL Server 2016: Script to get information of Cached Functions (Total Execution Time)
 SQL Server 2014: Monitor Memory Optimized Tables which stored in Memory
 SQL Server: Script to find the Forwarded Records count of a Table
@@ -25,24 +23,18 @@ SQL Server 2012: List of important views to Monitor the AlwaysOn Availability Gr
 SQL Server 2012: Script to monitor Status and Health of AlwaysOn Availability Groups
 SQL Server 2016: Script to find last statement executed by a SPID using sys.dm_exec_input_buffer
 SQL Server 2012: Script to find all System Objects related to File Table
-SQL Server: Script to find Outdated Index Statistics
 SQL Server: How to find auto created Statistics Objects?
 SQL Server: sp_updatestats to update the Database Statistics
 SQL Server: Find Statisitcs Information of the Database Objects
 SQL Server: Enable Auto Create and Auto Update Statistics
-
 SQL Server: T-SQL Script to change Schema of all the Tables
 SQL Server: Who dropped a Table and Which Table has been dropped
 SQL Server: Script to find waiting Queries which are block by other running Queries
-
 SQL Server: Script to find top 20 Stored Procedure, which are utilizing more CPU
 SQL Server: Script to grant EXECUTE stored procedure permission to a Database USER
 SQL Server: Script to find Memory Utilization for each database
 SQL Server: Script to find the CPU Information from Registry 
 SQL Server: Script to rename Database Name, Table Name, Column Name
- 
- 
-SQL Server: T-SQL Script to Rebuild all Indexes of a Database
 SQL Server: Script to find SQL Agent JOB and JOB Schedule Information
 SQL Server: Script to find all Running SQL Server Agent JOB
 SQL Server: Script to find PORT information of an Instance
@@ -56,10 +48,8 @@ SQL Server: The Important Performance Counters (dm_os_performance_counters)
 SQL Server: Find the total row count and size of the Tables
 SQL Server: How to read database error log using T-SQL (xp_readerrorlog)
 SQL Server: Script to find Installation Date, time and Authentication Mode
-SQL Server: Script to find Heap Table without having an Index
 SQL Server: Script to find the status of Trace is running or not
 SQL Server: Script to change the Recovery Model of a Database
-SQL Server: Script to find Index Average Fragmentation in Percentage
 SQL Server: Script to make Database Read Only and Read Write
 SQL Server 2012: Script to find uncontained objects of a Database
 SQL Server: The TempDB is Full, Shrink it or Move it
@@ -80,8 +70,6 @@ SQL Server: Script to Hide all Databases in SSMS
 SQL Server: Script to Enable and Disable XP_CMDSHELL Configuration
 SQL Server: Script to find CPU Pressure using Signal Wait Time
 SQL Server: Script to find total Row Count of All Tables in a Database
-SQL Server: Script to find Missing Indexes
 SQL Server: A Different command to check Basic Security Audit
-   
 How to find any Text, Column, Comment, Object Name in SQL Server Objects
 Query to Find Missing Number and ID in SQL Server
