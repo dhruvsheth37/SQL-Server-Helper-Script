@@ -71,6 +71,21 @@ This repository contains all helping SQL Server Script which will use in day to 
 068. [Find last DDL changes in SQL Server](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/068.%20Find%20last%20DDL%20changes%20in%20SQL%20Server)
 069. [Find Running Process and Session in SQL Server](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/069.%20Find%20Running%20Process%20and%20Session%20in%20SQL%20Server)
 070. [Find Foreign key References in SQL Server](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/070.%20Find%20Foreign%20key%20References%20in%20SQL%20Server)
+071. [Find out most recently modified Stored Procedure and Table in SQL Server](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/071.%20Find%20out%20most%20recently%20modified%20Stored%20Procedure%20and%20Table%20in%20SQL%20Server)
+072. [Find CPU usage per Different Objects - SQL Server Script](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/072.%20Find%20CPU%20usage%20per%20Different%20Objects%20-%20SQL%20Server%20Script)
+073. [Find Slowest Running Query in SQL Server](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/073.%20Find%20Slowest%20Running%20Query%20in%20SQL%20Server)
+074. [Find Cross Database Object Dependency in SQL Server](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/074.%20Find%20Cross%20Database%20Object%20Dependency%20in%20SQL%20Server)
+075. [Find Object Dependency in SQL Server](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/075.%20Find%20Object%20Dependency%20in%20SQL%20Server)
+076. [sys.dm_column_store_object_pool to find memory pool usage by Columnstore Indexes - SQL Server 2016](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/076.%20sys.dm_column_store_object_pool%20to%20find%20memory%20pool%20usage%20by%20Columnstore%20Indexes%20-%20SQL%20Server%202016)
+077. [sys.column_store_row_groups to find information on Columnstore row groups - SQL Server 2014](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/077.%20sys.column_store_row_groups%20to%20find%20information%20on%20Columnstore%20row%20groups%20-%20SQL%20Server%202014)
+078. [Find Outdated Statistics - SQL Server Script](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/078.%20Find%20Outdated%20Statistics%20-%20SQL%20Server%20Script)
+080. [Find Index Average Fragmentation in Percentage - SQL Server Script](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/080.%20Find%20Index%20Average%20Fragmentation%20in%20Percentage%20-%20SQL%20Server%20Script)
+081. [Find Missing Indexes - SQL Server Script](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/081.%20Find%20Missing%20Indexes%20-%20SQL%20Server%20Script)
+
+
+
+
+
 
 
 #### Please Note: Folks, I request you to test shared scripts in your development or QA environment before executing on live instance.
