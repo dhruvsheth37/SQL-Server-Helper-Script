@@ -1,4 +1,4 @@
--- 103. SQL Server Script to find top 10 Stored Procedure, which are utilizing more CPU
+-- 103. SQL Server Script to find top 10 Stored Procedure which are utilizing more CPU
 
 SELECT TOP 10
     DB_NAME(database_id) AS DatabaseName
