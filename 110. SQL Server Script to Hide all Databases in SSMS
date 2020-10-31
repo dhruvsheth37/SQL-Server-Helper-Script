@@ -1,0 +1,6 @@
+-- 110. SQL Server Script to Hide all Databases in SSMS
+
+USE MASTER
+GO
+DENY VIEW ANY DATABASE TO PUBLIC
+GO
