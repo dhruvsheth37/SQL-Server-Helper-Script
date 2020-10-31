@@ -12,6 +12,6 @@ This repository contains all helping SQL Server Script which will use in day to 
 009. [Find unused Indexes – Sql Server](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/009.%20Find%20unused%20Indexes%20%E2%80%93%20Sql%20Server)
 010. [Generate CREATE Index script for all indexes in database in Sql Server](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/010.%20Generate%20CREATE%20Index%20script%20for%20all%20indexes%20in%20database%20in%20Sql%20Server)
 
-Please Note: 
+***Please Note: 
 Folks, I request you to test shared scripts in your development or QA environment before executing on live instance.
 
