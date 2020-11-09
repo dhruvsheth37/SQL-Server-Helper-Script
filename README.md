@@ -79,6 +79,7 @@ This repository contains all helping SQL Server Script which will use in day to 
 076. [sys.dm_column_store_object_pool to find memory pool usage by Columnstore Indexes - SQL Server 2016](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/076.%20sys.dm_column_store_object_pool%20to%20find%20memory%20pool%20usage%20by%20Columnstore%20Indexes%20-%20SQL%20Server%202016)
 077. [sys.column_store_row_groups to find information on Columnstore row groups - SQL Server 2014](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/077.%20sys.column_store_row_groups%20to%20find%20information%20on%20Columnstore%20row%20groups%20-%20SQL%20Server%202014)
 078. [Find Outdated Statistics - SQL Server Script](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/078.%20Find%20Outdated%20Statistics%20-%20SQL%20Server%20Script)
+079. [SQL Server Script to kill all processes for Database](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/079.%20SQL%20Server%20Script%20to%20kill%20all%20processes%20for%20Database)
 080. [Find Index Average Fragmentation in Percentage - SQL Server Script](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/080.%20Find%20Index%20Average%20Fragmentation%20in%20Percentage%20-%20SQL%20Server%20Script)
 081. [Find Missing Indexes - SQL Server Script](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/081.%20Find%20Missing%20Indexes%20-%20SQL%20Server%20Script)
 082. [SQL Server 2016 Script to get information of Cached Functions with Total Execution Time](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/082.%20SQL%20Server%202016%20Script%20to%20get%20information%20of%20Cached%20Functions%20with%20Total%20Execution%20Time)
@@ -135,8 +136,7 @@ This repository contains all helping SQL Server Script which will use in day to 
 133. [SQL Server Script to find Installation Date, time and Authentication Mode](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/133.%20SQL%20Server%20Script%20to%20find%20Installation%20Date%2C%20time%20and%20Authentication%20Mode)
 134. [SQL Server Script to get all tables from database](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/134.%20SQL%20Server%20Script%20to%20get%20all%20tables%20from%20database)
 135. [Remove Cross duplicate rows in SQL Server](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/135.%20Remove%20Cross%20duplicate%20rows%20in%20SQL%20Server)
-lkjhjlkh
-136. [SQL Server Script to kill all processes for Database](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/136.%20SQL%20Server%20Script%20to%20kill%20all%20processes%20for%20Database)
-
+ 
+ 
 #### Please Note: Folks, I request you to test shared scripts in your development or QA environment before executing on live instance.
 
