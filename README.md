@@ -134,7 +134,7 @@ This repository contains all helping SQL Server Script which will use in day to 
 132. [SQL Server Script to find the status of Trace is running or not](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/132.%20SQL%20Server%20Script%20to%20find%20the%20status%20of%20Trace%20is%20running%20or%20not)
 133. [SQL Server Script to find Installation Date, time and Authentication Mode](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/133.%20SQL%20Server%20Script%20to%20find%20Installation%20Date%2C%20time%20and%20Authentication%20Mode)
 134. [SQL Server Script to get all tables from database](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/134.%20SQL%20Server%20Script%20to%20get%20all%20tables%20from%20database)
- 
- 
+135. [Remove Cross duplicate rows in SQL Server](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/135.%20Remove%20Cross%20duplicate%20rows%20in%20SQL%20Server)
+136. [SQL Server Script to kill all processes for Database](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/136.%20SQL%20Server%20Script%20to%20kill%20all%20processes%20for%20Database) 
 #### Please Note: Folks, I request you to test shared scripts in your development or QA environment before executing on live instance.
 
