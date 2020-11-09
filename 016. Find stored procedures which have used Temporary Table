@@ -1,5 +1,5 @@
 --Whenever we are finding some issues in performance, we are also try to avoid Dynamic Sql in Stored Procedure. 
---To avaid sql injection we should not write dynamic sql.
+--To avoid sql injection we should not write dynamic sql.
  
 -- Find stored procedures which have used Temporary Table 
 SELECT  
