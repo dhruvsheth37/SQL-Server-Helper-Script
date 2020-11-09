@@ -133,7 +133,7 @@ This repository contains all helping SQL Server Script which will use in day to 
 131. [SQL Server Script to change the Recovery Model of a Database](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/131.%20SQL%20Server%20Script%20to%20change%20the%20Recovery%20Model%20of%20a%20Database)
 132. [SQL Server Script to find the status of Trace is running or not](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/132.%20SQL%20Server%20Script%20to%20find%20the%20status%20of%20Trace%20is%20running%20or%20not)
 133. [SQL Server Script to find Installation Date, time and Authentication Mode](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/133.%20SQL%20Server%20Script%20to%20find%20Installation%20Date%2C%20time%20and%20Authentication%20Mode)
-
+134. [134. SQL Server Script to get all tables from database](https://github.com/dhruvsheth37/SQL-Server-Helper-Script/blob/master/134.%20SQL%20Server%20Script%20to%20get%20all%20tables%20from%20database)
  
  
 #### Please Note: Folks, I request you to test shared scripts in your development or QA environment before executing on live instance.
