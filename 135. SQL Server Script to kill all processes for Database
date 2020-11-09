@@ -1,4 +1,4 @@
--- 135. SQL Server Script to kill all processes for Database  
+-- 136. SQL Server Script to kill all processes for Database  
 
 DECLARE @EXECSQL VARCHAR(1000)
 DECLARE @DBNAME VARCHAR(100)
