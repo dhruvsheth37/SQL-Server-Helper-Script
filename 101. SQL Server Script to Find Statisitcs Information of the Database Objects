@@ -1,6 +1,6 @@
--- 101. SQL Server Script to Find Statisitcs Information of the Database Objects
+-- 101. SQL Server Script to Find Statistics Information of the Database Objects
 
--- Different 3 ways to Find Statisitcs Information of the Database Objects
+-- Different 3 ways to Find Statistics Information of the Database Objects
 
 -- 1. Using sys.indexes
 SELECT 
